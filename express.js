@@ -128,6 +128,7 @@ app.post('/postAdmin', (req, res) => {
                 </head>
                 <body>
                     <div class="admin-info">
+                        <a href="/" class="back-link">Back to Home</a>
                         <p>Admin ID: ${req.body.adminId}</p>
                         <p>First Name: ${req.body.firstName}</p>
                         <p>Last Name: ${req.body.lastName}</p>
